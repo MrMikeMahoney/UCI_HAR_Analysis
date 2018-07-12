@@ -14,10 +14,11 @@ Loading in the >> X_test, X_train, y_test, y_train, features(which will become o
 
 The files include:
 
-Getting_Cleaning_Data_assignment.pdf >> Information and insructions for the assignment
-run_analysis.R >> R code used to transform the dataset and create the Fixed Response >> Recode
-final_sum_o_data.txt >> The dataset in text file
-data_dctonary.txt >> A Dictonary of all the variables from final and final_some_o_data
+Getting_Cleaning_Data_assignment.pdf >> Information and insructions for the assignment;
+run_analysis.R >> R code used to transform the dataset;
+tidydata.csv >> csv of the final dataset;
+final_sum_o_data.txt >> The dataset in text file;
+data_dctonary.txt >> A Dictonary of all the variables from final and final_some_o_data;
 
 The Data Dictonary :
 FULL DATA SET'data.frame':	10299 obs. of  70 variables:
