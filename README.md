@@ -8,15 +8,21 @@ HW1 was data cleaning an manipulation of the UCI_HAR Data set, which is measurin
 
 The Actions performed in this script/manipulation >>
 
+1) Merges the training and the test sets to create one data set. >> master_data <br />
+2) Extracts only the measurements on the mean and standard deviation for each measurement. <br />
+3) Uses descriptive activity names to name the activities in the data set. <br />
+4) Appropriately labels the data set with descriptive variable names. <br />
+5) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. <br />
+
 Loading in the >> X_test, X_train, y_test, y_train, features(which will become our column headers), activity_labels, uploading the internal signals from the test and train (9 each) from the folder >> and eventually subject_train and subject_test files. Combining the files for two final data sets (steps 4 and 5) >> step4: final, step5: final_sum_o_data. Subsetting the features, selecting only features recorded with either mean or standard deviations.  Creating final_sum_o_data (in step 5) which is a filter of final >> by subject then activity_label >> then a mean of the remaining columns
 
 The files include:
 
-Getting_Cleaning_Data_assignment.pdf >> Information and insructions for the assignment;
-run_analysis.R >> R code used to transform the dataset;
-tidydata.csv >> csv of the final dataset;
-final_sum_o_data.txt >> The dataset in text file;
-data_dctonary.txt >> A Dictonary of all the variables from final and final_some_o_data;
+Getting_Cleaning_Data_assignment.pdf >> Information and insructions for the assignment; <br />
+run_analysis.R >> R code used to transform the dataset; <br />
+tidydata.csv >> csv of the final dataset; <br />
+final_sum_o_data.txt >> The dataset in text file; <br />
+data_dctonary.txt >> A Dictonary of all the variables from final and final_some_o_data; <br />
 
 The Data Dictonary :
 FULL DATA SET'data.frame':	10299 obs. of  70 variables:
